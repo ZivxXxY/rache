@@ -2,10 +2,11 @@ use std::collections::HashMap;
 use std::hash::Hash;
 
 pub trait Cache<K, V> {
+    // fn start_updater(&mut self, dutation: i32);
     fn set(&mut self, k: K, v: V);
     fn get(&mut self, k: &K) -> Option<&V>;
-    //fn set_with_expiry(&mut self, k: K, v: V, expr: i32);
-    //fn set_with_override
+    // fn set_with_expiry(&mut self, k: K, v: V, expr: i32);
+    // fn set_with_override
 }
 
 pub struct Rache<K, V> {
@@ -31,4 +32,6 @@ impl<K: Hash + Eq, V> Cache<K, V> for Rache<K, V> {
             None => None,
         }
     }
+
+    // fn start_updater(&mut self, duration: i32) {}
 }
