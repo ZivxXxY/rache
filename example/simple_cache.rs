@@ -2,7 +2,7 @@ extern crate rache;
 use rache::Rache;
 
 fn main() {
-    let mut r: Rache<String, i32> = Rache::new();
+    let mut r: Rache<String, i32> = Rache::new().set_duration_time(2);
     let first = String::from("first");
     r.set(first, 10);
 
