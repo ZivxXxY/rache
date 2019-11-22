@@ -4,4 +4,8 @@ version = "0.1.0"
 authors = ["ZivxXxY"]
 edition = "2018"
 
+[[bin]]
+name = "example"
+path = "example/simple_cache.rs"
+
 [dependencies]
