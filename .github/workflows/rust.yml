@@ -1,4 +1,4 @@
-name: rache
+name: CI
 
 on: [push, pull_request]
 
