@@ -1,5 +1,6 @@
 # rache
 
+[build-status]: https://github.com/katyamag/rache/workflows/CI/badge.svg
 [github-actions]: https://github.com/katyamag/rache/actions?query=workflow%3ACI
 [minimum-rustc]: https://img.shields.io/badge/rustc-1.37+-green.svg
 
